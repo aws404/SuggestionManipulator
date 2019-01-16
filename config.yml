@@ -1,0 +1,20 @@
+# -------------Configuration for Suggestion Manipulator----------------
+# remove-colon: (true/false) -- sets whether to remove all commands containing a ':' form the list
+# whitelist-blacklist: (whitelist/blacklist) -- set the default list type which is applied to every player (whitelist/blacklist)
+# - blacklist will remove all the commands specified from the default list
+# - whitelist will only present the player with the options below
+# permission-based: Give extras based on player permissions
+# --------------------Example-------------------
+# Eg. if player has 'suggestionmanipulaor.helper' permission they will have the commands below.
+# permission-based:
+#   helper:
+#   - warn
+remove-colon: true
+whitelist-blacklist: whitelist
+list:
+- tpa
+- bal
+- balance
+permission-based:
+  helper:
+  - warn

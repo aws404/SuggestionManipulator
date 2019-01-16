@@ -1,0 +1,11 @@
+main: aws404.sugestionmanipulator.Main
+name: SuggestionManipulator
+version: 1.0
+author: aws404
+description: Manipulates the list of command suggestions present in 1.13
+commands:
+  suggestionmanipulator:
+    description: Main command for the suggestion manipulator
+    usage: /suggestionmanipulator
+    permission: suggestionmanipulator.admin
+    aliases: sm
